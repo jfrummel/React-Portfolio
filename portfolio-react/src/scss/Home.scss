@@ -1,0 +1,30 @@
+.main {
+    background: url("/home-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-main {
+    padding: 50px 15px;
+    color: #7e8185;
+}
+
+h2 {
+    margin-left: 25px;
+}
+
+.header-text {
+    line-height: 1.2;
+    font-size: 2.2rem;
+    padding-left: 17px;
+}
+
+
+@media screen and (max-width: 990px) {
+    .header-text{
+        margin-top: 50px;
+    }
+}
