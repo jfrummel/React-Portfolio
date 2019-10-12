@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import SkillsListItem from './SkillsListItem';
+import '../scss/Skills.scss';
 
 class Skills extends Component {
     constructor(props) {
@@ -32,8 +33,8 @@ class Skills extends Component {
     
     render() { 
         return ( 
-            <div>
-                <ul>
+            <div className='container-fluid skills-section justify-content-center'>
+                <ul className="skillsList">
                     {this.skillsList()}
                 </ul>
             </div>

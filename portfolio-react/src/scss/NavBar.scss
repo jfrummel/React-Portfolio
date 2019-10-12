@@ -4,10 +4,15 @@
 }
 
 #top-menu {
-    margin-left: auto;
+    margin: auto;
 }
 
 .link {
-    font-size: 1.1rem;
-    margin-right: 25px;
+    font-size: 1.3rem;
+    margin-right: 100px;
+    color: rgb(31, 53, 53);
+}
+
+.active-link {
+    color: rgb(118, 74, 240);
 }

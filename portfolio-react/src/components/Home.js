@@ -1,19 +1,18 @@
 import React from 'react'
 import "../scss/Home.scss";
-import { Link } from "react-router-dom";
+import NavBar from "../components/NavBar";
 
 
 
 const Home = () => {
     return ( 
         <div className="container-fluid main">
+            <NavBar />
             <div className="row header-main">
-                <div className="col-lg-4 text-center">
+                <div className="col-lg-12 text-center align-middle">
+                    <img src="./logo-design.png" alt="JR Logo" className="img mb-5"/>
                     <h1 className="title-name">Jeremy Rummel</h1>
                     <h2>Full Stack Web Developer</h2>
-                </div>
-                <div className="col-lg-4 offset-lg-4">
-                    <h2 className="header-text">Thank you for visiting my site!  Please have a look around and drop me a line <Link to="/contact">here</Link>.</h2>
                 </div>
             </div>
         </div>

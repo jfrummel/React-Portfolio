@@ -1,3 +1,10 @@
+.skillsList {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
 .about-text {
     font-size: 1.3rem;
 }
